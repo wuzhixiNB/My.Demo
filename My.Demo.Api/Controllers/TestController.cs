@@ -1,4 +1,5 @@
-﻿using My.Demo.SDK.Client;
+﻿using My.Demo.Common;
+using My.Demo.EntityModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,23 +25,7 @@ namespace My.Demo.Api.Controllers
         [HttpPost]
         public ResponseResult<aaaa> adada(aaaa aa)
         {
-            return new ResponseResult<aaaa>() { Data = new aaaa() { a =1, e = "weew" } };
+            return new aaaa() { a = 1, e = "weew" }.Success();
         }
-    }
-
-    /// <summary>
-    /// 测试模型
-    /// </summary>
-    public class aaaa
-    {
-        /// <summary>
-        /// 测试参数23
-        /// </summary>
-        public int a { get; set; }
-
-        /// <summary>
-        /// 测试参数1
-        /// </summary>
-        public string e { get; set; }
     }
 }

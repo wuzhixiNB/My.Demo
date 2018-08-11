@@ -5,20 +5,21 @@ namespace My.Demo.SDK.Client
     public class ResponseResult<T>
     {
         /// <summary>
-        /// Gets or Sets Status
+        /// 请求状态  必须
         /// </summary>
         public bool Status { get; set; }
         /// <summary>
-        /// Gets or Sets Code
-        /// </summary> 
+        /// 错误码 非必须
+        /// </summary>
         public string ErrorCode { get; set; }
         /// <summary>
-        /// Gets or Sets Message
+        /// 错误消息 非必须
         /// </summary>
-        public string Message { get; set; }
+        public string ErrorMessage { get; set; }
         /// <summary>
-        /// Gets or Sets Data
+        /// 返回数据，非必须
         /// </summary>
-        public Object Data { get; set; }
+        public T Data { get; set; }
+
     }
 }
