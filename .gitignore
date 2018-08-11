@@ -1,0 +1,15 @@
+/packages
+/My.Demo.Api/obj
+/My.Demo.Api/bin
+/My.Demo.BLL/obj
+/My.Demo.BLL/bin
+/My.Demo.Common/bin
+/My.Demo.Common/obj
+/My.Demo.DAL/bin
+/My.Demo.DAL/obj
+/My.Demo.IBLL/bin
+/My.Demo.IBLL/obj
+/My.Demo.IDAL/bin
+/My.Demo.IDAL/obj
+/My.Demo.SDK/obj
+/My.Demo.SDK/bin

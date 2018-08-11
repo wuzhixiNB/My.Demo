@@ -1,6 +1,6 @@
 
 Demo项目结构：
-	|- My.Demo	WebApi启动项
+	|- My.Demo.Api	WebApi启动项
 	|- My.Demo.BLL	业务层
 	|- My.Demo.IBLL	业务层接口
 	|- My.Demo.DAL	数据层
