@@ -40,8 +40,18 @@ namespace My.Demo.SDK.Client
                     }
                 }
             }
+            catch (WebException webEx)
+            {
+                using (Stream strame = webEx.Response.GetResponseStream())
+                using (StreamReader sread = new StreamReader(strame))
+                {
+                    result = sread.ReadToEnd();
+                    return result;
+                }
+            }
             catch (Exception ex)
-            { }
+            {
+            }
 
             return result;
         }
