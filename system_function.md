@@ -7,5 +7,7 @@ Demo系统功能：
 	
 Demo系统缺少功能：
 	|- swagger中文乱码
-	|- webapi用户授权
-	|- 
+	|- webapi用户Token拦截
+	|- webapi用户Token更新机制
+	|- webapi用户Token持久化
+	
